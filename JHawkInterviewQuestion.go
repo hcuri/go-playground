@@ -17,9 +17,8 @@ func firstRepeatedWord(s string) string {
 	for _, val := range words {
 		if _, ok := myMap[val]; ok {
 			return val
-		} else {
-			myMap[val] = 1
 		}
+		myMap[val] = 1
 	}
 	// iterate through words in s (make sure you are separting by delmiters)
 	// check if word is in map, and return if yes
