@@ -8,11 +8,13 @@ func main() {
 
 	// add input here
 
-	sentence := "We ;work .hard \tbecause hard work pays."
+	// sentence := "We ;work .hard \tbecause hard work pays."
+
+	words := []string{"leetcoder", "leetcode", "od", "hamlet", "am"}
 
 	// result := splitByDelimiter(sentence, delimiters)
 
-	result := firstRepeatedWord(sentence) // insert function call here
+	result := stringMatching(words) // insert function call here
 
 	fmt.Println(result)
 
